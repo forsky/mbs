@@ -1,0 +1,46 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+body{ "宋体";font-size:12px;background:#fff;}
+fieldset, img ,span{ border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; }
+a { color:#666; text-decoration:none; }
+a:visited { color:#666; }
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; }
+input{outline:none;}
+
+
+#top{width:100%;margin:0 auto;height:26px;border-bottom:1px solid #f4f4f4;}
+#top .top-con{width:1200px;height:26px;margin:0 auto;position: relative;}
+#top .top-con .top-left{width:198px;height:20px;padding-left:231px;padding-top:6px;color:#747474;float:left;}
+#top .top-con .top-left .year{width:79px;height:12px;border-right:1px solid #e8e8e8;float:left;}
+#top .top-con .top-left .day{width:103px;height:12px;border-right:1px solid #e8e8e8;padding-left:14px;float:left;}
+#top .top-con .top-right{width:472px;height:20px;padding-top:6px;color:#747474;float:right;}
+#top .top-con .top-right .hello{width:61px;height:12px;border-right:1px solid #e8e8e8;float:left;}
+#top .top-con .top-right .dream{width:74px;height:12px;border-right:1px solid #e8e8e8;float:left;padding-left:23px;}
+#top .top-con .top-right .exit{width:56px;height:12px;border-right:1px solid #e8e8e8;float:left;padding-left:7px;}
+#top .top-con .top-right .help{width:48px;height:12px;float:left;padding-left:18px;}
+#top .top-con .top-right .weixin{width:24px;height:12px;float:left;padding-left:44px;background:url(../images/shopping/weixin.png) no-repeat 22px;}
+#top .top-con .top-right .phone{width:36px;height:12px;float:left;padding-left:44px;background: url(../images/shopping/phone.png) no-repeat 27px;}
+
+h1{width:192px;height:102px;position: absolute;left:23px;font-size:12px;color:#e50065;}
+h1 span{height:12px;text-align: center;margin-top: 7px;display:block;}
+
+#state{width:100%;margin:0 auto;}
+#state .state-con{width:1200px; height:105px;margin:0 auto;}
+#state .state-con .state-list{width:618px; height:23px;float:right;border:1px solid #e50065;border-radius:4px;margin-top:32px;background:url(../images/shopping/shopping2.png)no-repeat 0 bottom;}
+
+#message{width:100%;margin:0 auto;}
+#message .message-con{width:1200px;height:365px;border:1px solid #ebebeb;margin:0 auto 71px;}
+#message .message-con .address-message{height:33px;background:url(../images/shopping/address.png)no-repeat 92px center #f5f5f5;padding-left:118px;}
+#message .message-con .address-message h3{font-size:16px;height:33px;width:104px;line-height:33px;font-weight:bolder;color:#1b1b1b;float:left;}
+#message .message-con .address-message span{float:left;color:#e50065;height:33px;line-height:33px;}
+#message .message-con form{height:306px;padding-top:25px;border-bottom:1px solid #ebebeb;}
+#message .message-con form .same{height:24px;margin-bottom:10px;padding-left:139px;}
+#message .message-con form .same .con{width:70px;float:left;padding-left:20px;text-align: right;line-height:24px;height:24px;}
+#message .message-con form .same .star{background:url(../images/shopping/form.png)no-repeat 0 center;}
+#message .message-con form .df{height:38px;padding-left:147px;}
+#message .message-con form .df .sure{height:38px;width:148px;background:#e50065;text-align: center;line-height:38px;color:#fff;}
+#message .message-con form .same .detail-address{width:460px;}
+
+

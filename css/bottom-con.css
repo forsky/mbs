@@ -1,0 +1,50 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+body{ "宋体";font-size:12px;}
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; }
+a { color:#666; text-decoration:none; }
+a:visited { color:#666; }
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:none; }
+input{outline:none;}
+
+/*--link-----*/
+
+#link{width:100%;margin:0 auto;background:#ececec;}
+#link .link-con{width:1200px;height:144px;margin:0 auto;}
+#link .link-con .new-jion{width:136px;height:144px;float:left;padding-left:41px;}
+#link .link-con .pay{width:172px;height:144px;float: left;}
+#link .link-con .move{width:172px;height:144px;float: left}
+#link .link-con .back{width:129px;height:144px;float:left;}
+#link .link-con .systems{width:155px;height:144px;float:left;}
+#link .link-con .help{width:116px;height:144px;float:left;}
+#link .link-con .zixun{width:142px;height:144px;float:left;}
+#link .link-con .erweima{width:137px;height:144px;float:left;}
+#link .link-con h4{height:17px;font-size:12px;padding-top:20px;}
+#link .link-con span{height:22px;font-size:12px;line-height:22px;display:block;}
+#link .link-con .erweima img{display:block;margin-top:5px;}
+
+
+/*--foot----*/
+#foot{width:100%;margin:0 auto;}
+#Bottom{width:1200px;height:253px;margin: 0 auto;}
+#Bottom .link{width:1016px;height:22px;margin:0 auto 32px;text-align:center;}
+#Bottom .link a{margin-right:7px;}
+#Bottom .Bottom-bottom{text-align:center;display:block;height:22px;color:#797979;}
+
+
+#Bottom .tips{width:1039px;height:48px;margin:28px auto 58px;}
+#Bottom .tips .tip{font-size:20px;height:20px;width:181px;margin-left:76px;color: #2e2e2e;margin-bottom: 6px;}
+#Bottom .tips .first{margin-left:56px;}
+#Bottom .tips .sb{font-size:14px;height:14px;width:199px;margin-left:76px;color:#5f5f5f;}
+#Bottom .tips .firstb{margin-left:56px;}
+
+#Bottom .tips .hq{width:254px;height:48px;border-right: 1px solid #d9d9d9;background:url(../images/index/hq.png) no-repeat ;float:left;}
+#Bottom .tips .th{width:276px;height:48px;border-right: 1px solid #d9d9d9;background:url(../images/index/th.png) no-repeat 20px;;float:left;}
+#Bottom .tips .city{width:210px;height:48px;border-right: 1px solid #d9d9d9;background:url(../images/index/city.png) no-repeat 20px;float:left;}
+#Bottom .tips .free{width:293px;height:48px;border-right: 1px solid #d9d9d9;background:url(../images/index/free.png) no-repeat 20px;;float:left;}
+#Bottom .link-tu{width:853px;height:42px;margin:33px auto;}
+#Bottom .link-tu a{float:left;margin-right:10px;}
+#Bottom .link-tu .last{margin:0;}
+#Bottom .friend-link{width:980px;height:28px;margin:0 auto;line-height: 28px;border: dashed 1px #cdcdcd;color: #555555;}

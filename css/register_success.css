@@ -1,0 +1,27 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+body{ "宋体";font-size:12px;background:#cecccf;color:#555555;}
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; }
+a { color:#666; text-decoration:none; }
+a:visited { color:#666; }
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; }
+input{outline:none;}
+
+
+#top img{margin:3% auto 0;}
+
+#content{width:693px;height:227px;margin:0 auto;background:url(../images/register/gou.png) no-repeat 267px 57px #fff;padding:59px 0 0 323px;}
+#content .welcome{height:24px;font-size:24px;font-weight:bolder;color:#e50163; }
+#content .name{height:55px;font-size:12px;line-height:55px;}
+#content .change{height:36px;margin-bottom: 12px;}
+#content .change .ten{height:24px;width:24px;color:#e50163;font-size:24px;}
+#content .tiaozhuang{height:43px;}
+#content .tiaozhuang p{width:259px;height:43px;background:#e50163;text-align: center;line-height:43px;margin-right:15px;float:left;}
+#content .tiaozhuang .bc{background:#c9c9c9;}
+
+#Bottom{width:1239px;height:44px;margin:78px auto 0;}
+#Bottom .link{width:1016px;height:22px;margin:0 auto;text-align:center;}
+#Bottom .link a{margin-right:7px;}
+#Bottom .Bottom-bottom{text-align:center;display:block;height:22px;color:#989898;}

@@ -1,0 +1,162 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+body{ "宋体";font-size:12px;background:#fff;}
+fieldset, img ,span{ border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; }
+a { color:#666; text-decoration:none; }
+a:visited { color:#666; }
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; }
+input{outline:none;}
+
+
+#top{width:100%;margin:0 auto;height:26px;border-bottom:1px solid #f4f4f4;}
+#top .top-con{width:1200px;height:26px;margin:0 auto;position: relative;}
+#top .top-con .top-left{width:198px;height:20px;padding-left:231px;padding-top:6px;color:#747474;float:left;}
+#top .top-con .top-left .year{width:79px;height:12px;border-right:1px solid #e8e8e8;float:left;}
+#top .top-con .top-left .day{width:103px;height:12px;border-right:1px solid #e8e8e8;padding-left:14px;float:left;}
+#top .top-con .top-right{width:472px;height:20px;padding-top:6px;color:#747474;float:right;}
+#top .top-con .top-right .hello{width:61px;height:12px;border-right:1px solid #e8e8e8;float:left;}
+#top .top-con .top-right .dream{width:74px;height:12px;border-right:1px solid #e8e8e8;float:left;padding-left:23px;}
+#top .top-con .top-right .exit{width:56px;height:12px;border-right:1px solid #e8e8e8;float:left;padding-left:7px;}
+#top .top-con .top-right .help{width:48px;height:12px;float:left;padding-left:18px;}
+#top .top-con .top-right .weixin{width:24px;height:12px;float:left;padding-left:44px;background:url(../images/shopping/weixin.png) no-repeat 22px;}
+#top .top-con .top-right .phone{width:36px;height:12px;float:left;padding-left:44px;background: url(../images/shopping/phone.png) no-repeat 27px;}
+
+h1{width:192px;height:102px;position: absolute;left:23px;font-size:12px;color:#e50065;}
+h1 span{height:12px;text-align: center;margin-top: 7px;display:block;}
+
+#state{width:100%;margin:0 auto;}
+#state .state-con{width:1200px; height:105px;margin:0 auto;}
+#state .state-con .state-list{width:618px; height:23px;float:right;border:1px solid #e50065;border-radius:4px;margin-top:32px;}
+#state .state-con .state-list span{width:206px;height:23px;float:left;text-align: center;line-height:25px;}
+.my{background:url(../images/shopping/state.png)no-repeat right #e50065;}
+.message{background: url(../images/shopping/state2.png) no-repeat right;}
+
+#list{width:100%;margin:0 auto;}
+#list .list-con{width:1200px;height:37px;margin:0 auto;background:#ebebeb;line-height:36px;}
+#list .list-con .all{width:293px;height:36px;float:left;padding-left:93px;}
+#list .list-con .all input{width:11px;height:11px;}
+#list .list-con .goods{width:295px;height:36px;float:left;}
+#list .list-con .price{width:125px;height:36px;float:left;}
+#list .list-con .number{width:132px;height:36px;float:left;}
+#list .list-con .count{width:124px;height:36px;float:left;}
+#list .list-con .handle{width:138px;height:36px;float:left;}
+
+#goods{width:100%;margin:0 auto;}
+#goods .goods-con{width:1198px; height:auto;border:1px solid #e1e1e1;margin:0 auto;overflow: hidden;}
+#goods .goods-con .serve{width:1071px; height:30px;margin:9px auto;background:#f5f5f5;padding-left:47px;line-height:30px;}
+#goods .goods-con .goods-list{width:1198px;height:61px;}
+#goods .goods-con .goods-list .goods-message{width:666px;height:61px;float:left;}
+#goods .goods-con .goods-list .goods-message input{width:11px;height:11px;float:left;margin:21px 0 0 92px;}
+#goods .goods-con .goods-list .goods-message .g-img{width:41px;height:55px;float:left;margin:0 19px 6px 25px;}
+#goods .goods-con .goods-list .goods-message .g-img .BB{width:41px;height:55px;}
+#goods .goods-con .goods-list .goods-message .concrete{width:475px;height:61px;float:left;margin-top:12px;}
+#goods .goods-con .goods-list .goods-message .concrete .gName{height:18px;}
+#goods .goods-con .goods-list .goods-price{width:115px;height:61px;float:left;line-height:61px;}
+
+#goods .goods-con .goods-list .goods-number{width:153px;height:49px;float:left;line-height:61px;padding-top:12px;}
+#goods .goods-con .goods-list .goods-number span{width:30px;height:24px;border:1px solid #ebebeb;float:left;text-align: center;line-height:24px;}
+#goods .goods-con .goods-list .goods-number input{width:20px;height:26px;border:1px solid #ebebeb;float:left;background:#fff;}
+#goods .goods-con .goods-list .goods-count{width:123px;height:61px;float:left;line-height:61px;}
+
+#goods .goods-con .goods-list .goods-handle{width:136px;height:55px;float:left;padding-top:6px;}
+#goods .goods-con .goods-list .goods-handle input{display:block;}
+
+
+#pay{width:100%;margin:0 auto;}
+#pay .pay-con{width:1198px;height:170px;border:1px solid #e1e1e1;border-top:none;margin:0 auto;}
+#pay .pay-con .pay-left{width:308px; height:170px;float:left;}
+#pay .pay-con .pay-left img{float:left;margin:17px 15px 0 80px;}
+#pay .pay-con .pay-left .tip {width:78px; height:111px;float:left;padding-top:59px;}
+#pay .pay-con .pay-left .tip h2{width:78px; height:22px;font-size:22px;margin-bottom:8px;}
+#pay .pay-con .pay-left .tip span{display:block;margin-bottom:5px;color:#8d8d8d;}
+
+#pay .pay-con .pay-right{width:888px; height:170px;float:left;}
+#pay .pay-con .pay-right .pay-message{width:888px; height:14px;padding:65px 0 0 600px;}
+#pay .pay-con .pay-right .To-pay{width:227px; height:47px;background: #e50065;margin:27px 41px 0 0;float:right;text-align: center;line-height:47px;font-size:22px;color:#fff;}
+
+#action{width:100%;margin:0 auto;}
+#action .action-con{width:1198px;height:218px;border:1px solid #e1e1e1;border-top:none;margin:0 auto;}
+#action .action-con h2{height:82px;text-align: center;line-height:82px;font-size:22px;color:#555555;}
+#action .action-con ul {padding-left:168px;height:61px;}
+#action .action-con ul li{height:61px;width:309px;float:left;}
+#action .action-con ul li .action-name{height:32px;width:52px;border:1px solid #e6e6e6;line-height:32px;text-align: center;background:#b0b0b0;color:#fff;float:left;}
+#action .action-con ul li .first{background:#fff;color:#000;}
+#action .action-con ul li span{height:17px;width:179px;margin-left:11px;float:left;line-height:17px;font-size:12px;}
+#action .action-con ul li .konow{color:#9d9d9d;}
+#action .action-con ul li .unusual{margin-left:63px;}
+#action .action-con ul li .action-more{height:22px;width:31px;line-height:22px;padding-left:19px;background:url(../images/shopping/action-more.png) no-repeat 8px 6px #e6e6e6;color:#949494;}
+
+#null{width:100%;margin:0 auto;}
+#null .null-con{width:1198px;height:80px;margin:0 auto;}
+
+#hot-goods{width:100%;margin:0 auto;}
+#hot-goods .hot-goods-con{width:1158px; height:39px;border:1px solid #e1e1e1;margin:0 auto;padding-left:40px;line-height:39px;font-size:18px;}
+
+#goods-show{width:100%;margin:0 auto;}
+#goods-show .goods-show-con{width:1154px;height:418px;border:1px solid #e1e1e1;border-top:none;margin:0 auto;padding:22px 0 0 44px;}
+#goods-show .goods-show-con .goods-show-list{height:339px;}
+#goods-show .goods-show-con .goods-show-list dl{width:184px;height:339px;float:left;margin-right: 44px;border:1px solid #e1e1e1;}
+#goods-show .goods-show-con .goods-show-list dl dt .hot-goods-name{height:27px;text-align: center;line-height:27px;font-size:12px;}
+#goods-show .goods-show-con .goods-show-list dl dt .hot-goods-name .span-now{color:#d90077;}
+#goods-show .goods-show-con .goods-show-list dl dt .hot-goods-name .span-before{color:#a7a7a7;}
+#goods-show .goods-show-con .goods-show-list dl dd{width:80px;height:20px;border:1px solid #ff0682;text-align: center;line-height:20px;color:#ff0682;margin:13px auto 0;}
+#goods-show .goods-show-con ul{width:200px;height:24px;margin:46px 0 0 460px;}
+#goods-show .goods-show-con ul li{width:10px;height:10px;border-radius:100%;border:1px solid #e1e1e1;float:left;margin:5px 10px 0 0;}
+#goods-show .goods-show-con ul .last{width:66px;height:22px;border:1px solid #e5e5e5;text-align: center;line-height:22px;color:#666666;border-radius:0 ;margin:0;}
+
+
+#other-hot{width:100%;margin:0 auto;}
+#other-hot .other-hot-con{width:1178px; height:41px;border:1px solid #e1e1e1;margin:0 auto;padding-left:20px;line-height:41px;font-size:18px;background:url(../images/shopping/shu.png) no-repeat 230px 16px;color:#474747;}
+#other-hot .other-hot-con span{width:210px; height:41px;float:left;}
+#other-hot .other-hot-con .shoucang{width:210px; height:41px;float:left;padding-left:47px;color:#bfbfbf;font-size:14px;}
+
+#other-list{width:100%;margin:0 auto;}
+#other-list .other-list-con{width:1154px;height:375px;border:1px solid #e1e1e1;margin:0 auto;padding:22px 0 0 44px;}
+#other-list .other-list-con .goods-show-list{height:339px;}
+#other-list .other-list-con .goods-show-list dl{width:184px;height:339px;float:left;margin-right: 44px;border:1px solid #e1e1e1;}
+#other-list .other-list-con .goods-show-list dl dt .hot-goods-name{height:27px;text-align: center;line-height:27px;font-size:12px;}
+#other-list .other-list-con .goods-show-list dl dt .hot-goods-name .span-now{color:#d90077;}
+#other-list .other-list-con .goods-show-list dl dt .hot-goods-name .span-before{color:#a7a7a7;}
+#other-list .other-list-con .goods-show-list dl dd{width:80px;height:20px;border:1px solid #ff0682;text-align: center;line-height:20px;color:#ff0682;margin:13px auto 0;}
+
+
+
+/*--link----------------------------------------------------------------------------------------------*/
+#link{width:100%;margin:0 auto;background:#ececec;}
+#link .link-con{width:1200px;height:144px;margin:0 auto;}
+#link .link-con .new-jion{width:136px;height:144px;float:left;padding-left:41px;}
+#link .link-con .pay{width:172px;height:144px;float: left;}
+#link .link-con .move{width:172px;height:144px;float: left}
+#link .link-con .back{width:129px;height:144px;float:left;}
+#link .link-con .systems{width:155px;height:144px;float:left;}
+#link .link-con .help{width:116px;height:144px;float:left;}
+#link .link-con .zixun{width:142px;height:144px;float:left;}
+#link .link-con .erweima{width:137px;height:144px;float:left;}
+#link .link-con h4{height:17px;font-size:12px;padding-top:20px;}
+#link .link-con span{height:22px;font-size:12px;line-height:22px;display:block;}
+#link .link-con .erweima img{display:block;margin-top:5px;}
+
+/*-------------------------以下为底部公共样式-----------------------------------------------------*/
+#foot{width:100%;margin:0 auto;}
+#Bottom{width:1200px;height:253px;margin:0 auto;}
+#Bottom .link{width:1016px;height:22px;margin:0 auto 32px;text-align:center;}
+#Bottom .link a{margin-right:7px;}
+#Bottom .Bottom-bottom{text-align:center;display:block;height:22px;color:#797979;}
+
+
+#Bottom .tips{width:1039px;height:48px;margin:28px auto 58px;}
+#Bottom .tips .tip{font-size:20px;height:20px;width:181px;margin-left:76px;color: #2e2e2e;margin-bottom: 6px;}
+#Bottom .tips .first{margin-left:56px;}
+#Bottom .tips .sb{font-size:14px;height:14px;width:199px;margin-left:76px;color:#5f5f5f;}
+#Bottom .tips .firstb{margin-left:56px;}
+
+#Bottom .tips .hq{width:254px;height:48px;border-right: 1px solid #d9d9d9;background:url(../images/index/hq.png) no-repeat ;float:left;}
+#Bottom .tips .th{width:276px;height:48px;border-right: 1px solid #d9d9d9;background:url(../images/index/th.png) no-repeat 20px;;float:left;}
+#Bottom .tips .city{width:210px;height:48px;border-right: 1px solid #d9d9d9;background:url(../images/index/city.png) no-repeat 20px;float:left;}
+#Bottom .tips .free{width:293px;height:48px;border-right: 1px solid #d9d9d9;background:url(../images/index/free.png) no-repeat 20px;;float:left;}
+#Bottom .link-tu{width:853px;height:42px;margin:33px auto;}
+#Bottom .link-tu a{float:left;margin-right:10px;}
+#Bottom .link-tu .last{margin:0;}
+#Bottom .friend-link{width:980px;height:28px;margin:0 auto;line-height: 28px;border: dashed 1px #cdcdcd;color: #555555;}

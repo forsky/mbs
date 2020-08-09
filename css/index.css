@@ -1,0 +1,174 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+body{ "宋体";font-size:12px;position: relative;}
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; }
+a { color:#666; text-decoration:none; }
+a:visited { color:#666; }
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:none; }
+input{outline:none;}
+
+#head{width:100%;margin:0 auto;}
+#head .login{width: 100%;  height: 26px;  background: #f6f6f6;  border-bottom: 1px solid #ededed;margin:0 auto;}
+#head .login .login-right{width: auto;  height: 26px;  position: relative;  float: right;  z-index: 11;  padding-right: 0;color:#666666;}
+#head .login .login-right .shopping-car{width:103px;height:26px;line-height:26px;background:url(../images/index/shopcar.png) no-repeat 56px #f6f6f6;padding-left:12px;float:right;}
+#head .login .login-right .Collection{width:146px;height:26px;float:right;}
+#head .login .login-right .Collection .sc{width:70px;height:26px;background:url(../images/index/background.png) no-repeat right center;line-height:26px;float:left;padding-left:12px;}
+#head .login .login-right .Collection .english{width:52px;height:26px;background:url(../images/index/background.png) no-repeat right center;line-height:26px;float:left;padding-left:12px;}
+#head .login .login-right .phone-css{width:76px;height:26px;background:url(../images/index/background.png) no-repeat right center;line-height:26px;float:right;}
+#head .login .login-right .phone-css .imgPhone{float:left;margin:7px 5px 0 12px;}
+#head .login .login-right .login-way{width:36px;height:26px;background:url(../images/index/background.png) no-repeat right center;line-height:26px;float:right;padding-left:12px;}
+#head .link-tu{width: 100%;  height: 54px;  background: #f6f6f6; margin:0 auto 10px;}
+#head .login .login-right .my{width:auto;}
+#head .link-tu .toLink-tu{width:1200px;height:54px; margin:0 auto;}
+#head .link-tu .toLink-tu img{float:left;}
+
+#head .search{width: 100%;  height: 132px; margin:0 auto;}
+#head .search .searchIn{width:1200px;height:103px;margin:0 auto;}
+h1{width:360px;height:67px;padding:36px 0 0 20px;float:left;}
+#head .search  .searchCenter{width:540px;height:69px;float:left;padding-top:34px;}
+#head .search  .searchCenter .searchBox{width:540px;height:35px;margin:0 auto 7px;}
+#head .search  .searchCenter .searchBox .text{width:438px;height:30px;margin:0 auto;border:2px solid #e50163;float:left;padding-left:10px;}
+#head .search  .searchCenter .searchBox .sub{width:86px;height:36px;margin:0 auto;border:2px solid #e50163;background: #e50163;float:left;color:#fff;font-size:16px;}
+#head .search  .searchCenter .lists{width:540px;height:12px;padding-left:14px;}
+#head .search  .searchCenter .lists .lit{height:12px;padding:0 5px 0 7px;background:url(../images/index/background.png) no-repeat right;float:left;line-height:12px;}
+h2{width:240px;height:85px;padding:18px 0 0 35px;float:left;}
+#head .search .list{width: 1200px;  height:29px;margin:0 auto;}
+#head .search .list .list-left{width: 646px;  height:29px;  float:left;margin:0 auto;line-height:29px;}
+#head .search .list .list-left .sy{width:52px;height:29px;float:left;padding-left:42px;color:#000;background: url(../images/index/sy.png) no-repeat 26px 9px;font-size:14px;font-weight: bold;}
+#head .search .list .list-left .mg{width:55px;height:29px;float:left;color:#000;background: url(../images/index/mg.png) no-repeat 26px 9px;font-size:14px;font-weight: bold;padding-left:46px;position: relative}
+#head .search .list .list-left .mp{width:73px;height:29px;float:left;text-align:center;color:#000;}
+#head .search .list .list-left .wm{width:58px;height:29px;float:left;text-align:center;color:#000;}
+#head .search .list .list-left .mg .hot{width:14px;height:12px;position: absolute;left:55px;top:-8px;}
+#head .search .list .list-right{width: 356px;  height:29px;  float:right;margin:0 auto;line-height:29px;}
+#head .search .list .list-right .new{width: 89px;  height:29px;  float:left;line-height:29px;font-weight: bold;font-size:14px;color:#000;}
+.every{position: relative;}
+#head .search .list .list-right .every .New{width:23px;height:11px;position: absolute;left:30px;top:-5px;}
+
+#content{width:100%;margin:0 auto;}
+#content .banner{width:1200px;height:430px;margin:0 auto;position: relative;}
+#content ul{width:1200px;height:430px;position: relative;overflow:hidden;}
+#content ul li {width:1200px;height:430px;margin:0 auto;position: absolute;display: none;}
+#content .banner ol{width:160px;height:22px;position:absolute;left:1050px;top:380px;}
+#content .banner ol li{width:14px;height:14px;border-radius:100%;border:1px solid black;margin-right:10px;float:left;background:#fff;}
+
+
+#goods-list{width:235px;height:474px;background:#080c0b;position: absolute;left:0px;top:0px;;}
+
+#goods-list .hot-goods{width:210px;height:83px;padding-left:25px;}
+#goods-list .women{width:210px;height:75px;padding-left:25px;}
+#goods-list .underwear{width:210px;height:75px;padding-left:25px;}
+#goods-list .men{width:210px;height:75px;padding-left:25px;}
+#goods-list .Ame-goods{width:210px;height:55px;padding-left:25px;}
+#goods-list .all{width:210px;height:39px;padding-left:25px;}
+#goods-list .beauty{width:210px;height:71px;padding-left:25px;}
+h3{font-size:14px;font-weight:bolder;color:darkslategray;width:210px;height:14px;padding-top:16px;margin-bottom: 6px;}
+#goods-list a{line-height:20px;color:#a8acac;}
+
+#goodsList{width:199px;height:474px;position:absolute;left:235px;top:0px;border:1px solid #e50163;background: #fff;display:none;}
+/*---benefit----*/
+#benefit{width:100%;margin:0 auto;background:#e4e4e4;}
+#benefit .benefit-con{width:1200px;height:324px;margin:0 auto;}
+
+#benefit .benefit-con .title{width:926px;height:38px;padding-left:274px;padding-top:16px;}
+#benefit .benefit-con .title a{float:left;margin-right:10px;width:128px;height:36px;position: relative;}
+#benefit .benefit-con .title a span{float:left;margin-right:10px;width:126px;height:22px;border:1px solid #bbb;line-height:22px;text-align: center;}
+#benefit .benefit-con .title a img{position: absolute;display:none;}
+
+
+#benefit .benefit-con .ben-con-left{width:235px;height:262px;float:left;}
+#benefit .benefit-con .ben-con-right{width:950px;height:262px;float:left;margin-left:15px;position: relative;}
+#benefit .benefit-con .ben-con-right img{position: absolute;display:none;}
+
+
+/*---show---*/
+#show{width:100%;margin:0 auto;background: #ffd401;}
+#show .show-con{width:1200px;height:693px;margin:0 auto;}
+
+/*----T-show---*/
+#T-show{width:100%;margin:0 auto;background:#ffd401;height:972px;}
+.more-con{width:1200px;height:931px;background:#fff;margin:0 auto;position: relative;}
+.more-con h2{width:1155px;height:73px;padding:20px 0 0 45px;}
+.more-con .more{position: absolute;left:908px;top:-10px;}
+.more-con .img-box{width:225px;height:404px;margin:0 0 10px 10px;float:left;}
+.more-con .img-box .shopping-title{height:28px;background:#333333;color:#d8ff06;text-align: center;line-height:28px;}
+.more-con .img-box .goods-title{height:37px;text-align: center;line-height:28px;}
+.more-con .img-box .goods-price{height:18px;text-align: center;color:#be1724;}
+/*--Dress---*/
+#Dress{width:100%;margin:0 auto;background:#ffd401;height:972px;}
+
+
+/*----SHIRT---*/
+#Shirt{width:100%;margin:0 auto;background:#ec1f1a;height:972px;}
+
+/*----PANT---*/
+#Pant{width:100%;margin:0 auto;background:#ec1f1a;height:972px;}
+
+/*---UNDERWEAR---*/
+#Underwear{width:100%;margin:0 auto;background:#ec1f1a;height:972px;}
+
+
+
+
+/*----datu--*/
+#datu{width:100%;background:gray;margin:0 auto;}
+#datu .datu-con{width:1200px;height:auto;margin:0 auto;}
+
+
+/*--link----------------------------------------------------------------------------------------------*/
+#link{width:100%;margin:0 auto;background:#ececec;}
+#link .link-con{width:1200px;height:144px;margin:0 auto;}
+#link .link-con .new-jion{width:136px;height:144px;float:left;padding-left:41px;}
+#link .link-con .pay{width:172px;height:144px;float: left;}
+#link .link-con .move{width:172px;height:144px;float: left}
+#link .link-con .back{width:129px;height:144px;float:left;}
+#link .link-con .systems{width:155px;height:144px;float:left;}
+#link .link-con .help{width:116px;height:144px;float:left;}
+#link .link-con .zixun{width:142px;height:144px;float:left;}
+#link .link-con .erweima{width:137px;height:144px;float:left;}
+#link .link-con h4{height:17px;font-size:12px;padding-top:20px;}
+#link .link-con span{height:22px;font-size:12px;line-height:22px;display:block;}
+#link .link-con .erweima img{display:block;margin-top:5px;}
+
+
+/*-------------------------以下为底部公共样式-----------------------------------------------------*/
+#foot{width:100%;margin:0 auto;}
+#Bottom{width:1200px;height:253px;margin: 0 auto;}
+#Bottom .link{width:1016px;height:22px;margin:0 auto 32px;text-align:center;}
+#Bottom .link a{margin-right:7px;}
+#Bottom .Bottom-bottom{text-align:center;display:block;height:22px;color:#797979;}
+
+
+#Bottom .tips{width:1039px;height:48px;margin:28px auto 58px;}
+#Bottom .tips .tip{font-size:20px;height:20px;width:181px;margin-left:76px;color: #2e2e2e;margin-bottom: 6px;}
+#Bottom .tips .first{margin-left:56px;}
+#Bottom .tips .sb{font-size:14px;height:14px;width:199px;margin-left:76px;color:#5f5f5f;}
+#Bottom .tips .firstb{margin-left:56px;}
+
+#Bottom .tips .hq{width:254px;height:48px;border-right: 1px solid #d9d9d9;background:url(../images/index/hq.png) no-repeat ;float:left;}
+#Bottom .tips .th{width:276px;height:48px;border-right: 1px solid #d9d9d9;background:url(../images/index/th.png) no-repeat 20px;;float:left;}
+#Bottom .tips .city{width:210px;height:48px;border-right: 1px solid #d9d9d9;background:url(../images/index/city.png) no-repeat 20px;float:left;}
+#Bottom .tips .free{width:293px;height:48px;border-right: 1px solid #d9d9d9;background:url(../images/index/free.png) no-repeat 20px;;float:left;}
+#Bottom .link-tu{width:853px;height:42px;margin:33px auto;}
+#Bottom .link-tu a{float:left;margin-right:10px;}
+#Bottom .link-tu .last{margin:0;}
+#Bottom .friend-link{width:980px;height:28px;margin:0 auto;line-height: 28px;border: dashed 1px #cdcdcd;color: #555555;}
+
+
+/*--弹出框--*/
+#box{
+    width:100%;
+    height:100%;
+    background:gray;
+    opacity: 0.7;
+    position: absolute;
+    top:0;
+
+}
+ .box{width:805px;height:700px;position:absolute;top:80px;}
+.box .kong{height:41px;}
+ .box .kong .closeBox{width:40px;height:40px;border:1px solid red;border-radius: 100%;float:right;background:url(../images/index/closebox.png)no-repeat center center;}
+.box img{float:left;margin-right:20px;}
+
+#bos{overflow: hidden;width:auto;height:auto;opacity: 0.5;position: fixed;top:40%;}

@@ -1,0 +1,86 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+body{ "宋体";font-size:12px;background:#fff;}
+fieldset, img ,span{ border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; }
+a { color:#666; text-decoration:none; }
+a:visited { color:#666; }
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; }
+input{outline:none;}
+
+#top{width:100%;margin:0 auto;height:26px;border-bottom:1px solid #f4f4f4;}
+#top .top-con{width:1200px;height:26px;margin:0 auto;position: relative;}
+#top .top-con .top-left{width:198px;height:20px;padding-left:231px;padding-top:6px;color:#747474;float:left;}
+#top .top-con .top-left .year{width:79px;height:12px;border-right:1px solid #e8e8e8;float:left;}
+#top .top-con .top-left .day{width:103px;height:12px;border-right:1px solid #e8e8e8;padding-left:14px;float:left;}
+#top .top-con .top-right{width:472px;height:20px;padding-top:6px;color:#747474;float:right;}
+#top .top-con .top-right .hello{width:61px;height:12px;border-right:1px solid #e8e8e8;float:left;}
+#top .top-con .top-right .dream{width:74px;height:12px;border-right:1px solid #e8e8e8;float:left;padding-left:23px;}
+#top .top-con .top-right .exit{width:56px;height:12px;border-right:1px solid #e8e8e8;float:left;padding-left:7px;}
+#top .top-con .top-right .help{width:48px;height:12px;float:left;padding-left:18px;}
+#top .top-con .top-right .weixin{width:24px;height:12px;float:left;padding-left:44px;background:url(../images/shopping/weixin.png) no-repeat 22px;}
+#top .top-con .top-right .phone{width:36px;height:12px;float:left;padding-left:44px;background: url(../images/shopping/phone.png) no-repeat 27px;}
+
+h1{width:192px;height:102px;position: absolute;left:23px;font-size:12px;color:#e50065;}
+h1 span{height:12px;text-align: center;margin-top: 7px;display:block;}
+
+#state{width:100%;margin:0 auto;}
+#state .state-con{width:1200px; height:105px;margin:0 auto;}
+#state .state-con .state-list{width:618px; height:23px;float:right;border:1px solid #e50065;border-radius:4px;margin-top:32px;background:url(../images/shopping/shopping2.png)no-repeat 0 bottom;}
+
+/*--message--*/
+#message {width:100%;margin:0 auto;}
+#message .message-con{width:1198px;height:787px;border:1px solid #ebebeb;margin:0 auto;}
+#message .message-con .address-message{height:33px;background:url(../images/shopping/address.png)no-repeat 92px center #f5f5f5;padding-left:118px;}
+#message .message-con .address-message h3{font-size:16px;height:33px;width:104px;line-height:33px;font-weight:bolder;color:#1b1b1b;float:left;}
+#message .message-con .address-message span{float:left;color:#e50065;height:33px;line-height:33px;}
+
+#message .message-con ul{height:58px;padding-left:123px;}
+#message .message-con ul li {line-height:58px;height:58px;padding-left:123px;margin-right:15px;float:left;}
+
+#message .message-con .pay-way{height:33px;background:url(../images/shopping/pay-way.png)no-repeat 92px center #f5f5f5;padding-left:118px;border-top:1px solid #ebebeb;}
+#message .message-con .pay-way h3{font-size:16px;height:33px;width:144px;line-height:33px;font-weight:bolder;color:#1b1b1b;float:left;}
+#message .message-con .pay-way span{float:left;color:#e50065;height:33px;line-height:33px;}
+
+#message .message-con .pay{height:104px;padding:15px 0 0 123px;}
+#message .message-con .pay p{height:14px;}
+#message .message-con .pay .p1{margin-bottom:23px;}
+
+#message .message-con .pay .p2{margin-bottom:14px;}
+#message .message-con .pay .p1 .span1{color:#e50065;}
+#message .message-con .pay .p2 .span2{color:#e50065;}
+#message .message-con .pay .p3 .span3{color:#e50065;}
+
+#message .message-con .goods-message{height:33px;background:url(../images/shopping/goods-message.png)no-repeat 92px center #f5f5f5;padding-left:118px;border-top:1px solid #ebebeb;}
+#message .message-con .goods-message h3{font-size:16px;height:33px;width:104px;line-height:33px;font-weight:bolder;color:#1b1b1b;float:left;}
+
+#message .message-con .goods-list{height:325px;border-bottom:1px solid #ebebeb;}
+#message .message-con .goods-list .title{height:40px;width:987px;margin:0 auto;line-height:40px;padding-left:33px;}
+#message .message-con .goods-list .title .pink{color:#e50065;}
+#message .message-con .goods-list table{width:1020px;height:98px;margin:0 auto;border-spacing:0;border-collapse: collapse;}
+#message .message-con .goods-list table .tr1{background:#f5f5f5;}
+#message .message-con .goods-list table .tr1 td{border:1px solid #ebebeb;line-height:30px;height:30px;text-align: center;}
+#message .message-con .goods-list table .tr2 td{border:1px solid #ebebeb;line-height:65px;height:65px;text-align: center;}
+#message .message-con .goods-list table .tr1 .td1{width:635px;}
+#message .message-con .goods-list table .tr1 .td2{width:117px;}
+#message .message-con .goods-list table .tr1 .td3{width:120px;}
+#message .message-con .goods-list table .tr1 .td4{width:143px;}
+#message .message-con .goods-list .count{width:1020px;height:136px;margin:0 auto;border-bottom:1px solid #ebebeb;}
+#message .message-con .goods-list .count .left-count{height:108px;float:left;padding-top:28px;}
+#message .message-con .goods-list .count .right-count{height:108px;float:right;padding-top:28px;width:272px;}
+#message .message-con .goods-list .count .right-count .price-same{height:12px;float:right;width:272px;margin-bottom:12px;}
+#message .message-con .goods-list .count .right-count .price-same span{width:136px;float:left;text-align: right;}
+#message .message-con .goods-list .count .right-count .price-same .s-right{color:#e50065;}
+
+
+#message .message-con .goods-list .goods-bottom{height:27px;border-top:1px solid #ebebeb;width:1020px;margin:0 auto;padding-top:24px;}
+#message .message-con .goods-list .goods-bottom .choose{width:13px;height:13px;float:left;margin: 0 5px;}
+#message .message-con .goods-list .goods-bottom span{height:13px;float:left;line-height:13px;margin-right:4px;}
+#message .message-con .goods-list .goods-bottom .pink{color:#e50065;}
+#message .message-con .goods-list .goods-bottom .decoration{text-decoration: underline;}
+
+#message .message-con .sure{height:48px;padding-left:570px;margin-top:89px;}
+#message .message-con .sure .tip{height:30px;width:250px;float:left;margin-right:20px;padding-top:18px;}
+#message .message-con .sure .go{height:48px;width:278px;background:#e50065;text-align: center;line-height:48px;color:#fff;float:left;font-size:22px;}
+

